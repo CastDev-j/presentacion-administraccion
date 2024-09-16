@@ -1,14 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Presentación</title>
+    <title>Index de Presentación y Documentación</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f5f5f5; /* Gris claro para el fondo */
+        }
+    </style>
 </head>
-<body>
-    <script>
-        window.location.href = "./datos";
-    </script>
-    
+<body class="flex items-center justify-center h-screen p-4">
+    <div class="w-full max-w-md mx-auto">
+        <div class="flex flex-col space-y-10">
+            <!-- Botón para la presentación -->
+            <a href="https://castdev-j.github.io/presentacion-administraccion/Presentacion.pdf" 
+               class="block bg-gray-200 text-gray-800 text-3xl font-bold text-center py-12 rounded-lg shadow-md hover:bg-gray-300 transition duration-300 h-full">
+                Ver Presentación
+            </a>
+            <!-- Botón para la documentación -->
+            <a href="https://castdev-j.github.io/presentacion-administraccion/datos" 
+               class="block bg-gray-200 text-gray-800 text-3xl font-bold text-center py-12 rounded-lg shadow-md hover:bg-gray-300 transition duration-300 h-full">
+                Ver Documentación
+            </a>
+        </div>
+    </div>
 </body>
 </html>
